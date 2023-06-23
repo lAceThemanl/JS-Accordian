@@ -59,3 +59,20 @@ body {
     transition: .5s;
     
 }
+
+/* Javascript Styling Link */
+
+.accordion .content-container.active .answer {
+    height: 150px;
+}
+
+.accordion .content-container.active .question {
+    font-size: 18px;
+    transition: .5s;
+}
+
+.accordion .content-container.active .question::after {
+    content: '-';
+    font-size: 30px;
+    transition: .5s;
+}
